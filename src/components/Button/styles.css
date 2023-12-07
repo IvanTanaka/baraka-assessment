@@ -1,0 +1,11 @@
+.primary {
+    @apply bg-background-primary text-content-100;
+}
+.secondary {
+    @apply border-background-primary text-background-primary;
+    box-shadow: inset 0 0 0 4px #fff;
+}
+.tertiary {
+    @apply text-background-primary;
+    mix-blend-mode: exclusion;
+}
