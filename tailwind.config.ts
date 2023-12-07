@@ -17,7 +17,7 @@ const config: Config = {
       },
     },
     extend: {
-      darkmode: false,
+      darkmode: 'false',
       backgroundColor: {
         "white-100": "#ffffff",
       },

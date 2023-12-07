@@ -30,7 +30,7 @@ const Forecast: React.FC<ForecastProps> = () => {
         />
       </div>
       <h3 className='font-medium mb-1'>About Trailblazer Portfolio</h3>
-      <p className="lg:max-w-[50vw] md:max-w-[70vw] max-w-max text-start text-content-50 leading-5">
+      <p className="xl:max-w-[50vw] md:max-w-[70vw] max-w-max text-start text-content-50 leading-5">
         Let this pioneer navigate your long-term investment journey. This
         portfolio offers exposure to the most promising companies and high
         potential assets classes. It&apos;s not for the faint of heart, but in

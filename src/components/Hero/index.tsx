@@ -16,7 +16,7 @@ const Hero: React.FC<HeroProps> = ({ name, startDate }) => {
         width: "100%",
       }}
     >
-      <div className="lg:w-1/2 p-8 bg-[#d9d9d9]/10 rounded-xl backdrop-blur-sm flex flex-col text-start">
+      <div className="xl:w-1/2 p-8 bg-[#d9d9d9]/10 rounded-xl backdrop-blur-sm flex flex-col text-start">
         <h2 className="mb-12 text-3xl text-background-primary ">Vacation</h2>
         <h1 className="font-bold text-background-primary mb-12 text-6xl">
           Financial Report for {name}
