@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Button from "../Button";
+import DowloadReport from "../../../public/images/hero/icon-dowload.svg";
 
 interface HeroProps {
   name: string;
@@ -11,7 +12,7 @@ const Hero: React.FC<HeroProps> = ({ name, startDate }) => {
     <div
       className="relative overflow-hidden bg-cover bg-no-repeat p-12 text-center flex items-center"
       style={{
-        backgroundImage: `url('/images/hero/bg.png')`,
+        backgroundImage: `url('/images/hero/bg.jpg')`,
         height: "100vh",
         width: "100%",
       }}
@@ -28,7 +29,7 @@ const Hero: React.FC<HeroProps> = ({ name, startDate }) => {
             icon={
               <Image
                 alt="download report"
-                src={"/images/hero/download-report.png"}
+                src={DowloadReport}
                 width={20}
                 height={20}
               />

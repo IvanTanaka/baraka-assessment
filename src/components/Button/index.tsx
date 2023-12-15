@@ -17,7 +17,7 @@ const Button: React.FC<ButtonProps> = ({
 }) => {
   return (
     <button
-      className={`py-3 px-6 rounded-full flex flex-row ${style} ${
+      className={`py-3 px-6 rounded-full flex flex-row justify-center items-center ${style} ${
         !!className ? className : ""
       }`}
     >
